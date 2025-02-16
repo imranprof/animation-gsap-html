@@ -1,0 +1,384 @@
+.aae-hero-area{
+    padding-top: 60px;
+    padding-bottom: 145px;
+    padding-inline-start: 200px;
+    padding-inline-end: 200px;
+    max-width: 1920px;
+    margin: auto;
+    @media #{$mac}{
+        padding-inline-start: 50px;
+        padding-inline-end: 50px;
+    }
+    @media #{$xl}{
+        padding-bottom: 140px;
+        padding-inline-start: 20px;
+        padding-inline-end: 20px;
+    }
+    @media #{$lg}{
+        padding-bottom: 100px;
+    }
+    @media #{$sm}{
+        padding-top: 45px;
+        padding-bottom: 50px;
+        padding-inline-start: 15px;
+        padding-inline-end: 15px;
+    }
+    .aae-hero-description{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        font-size: 18px;
+        padding-left: 123px;
+        margin-top: -40px;
+        @media #{$sm}{
+            flex-wrap: wrap;
+            font-size: 16px;
+            margin-top: 0;
+            padding-left: 0;
+        }
+        span{
+            color: var(--white);
+            text-decoration: underline;
+        }
+    }
+}
+.aae-title-content {
+    max-width: 1116px;
+    margin-inline-start: auto;
+    padding-top: 50px;
+    @media #{$md}{
+        padding-top: 50px;
+    }
+    @media #{$sm}{
+        padding-top: 0;
+    }
+}
+.aae-hero-content{
+    position: relative;
+}
+.aae-polygon {
+    position: absolute;
+    bottom: 25%;
+    left: 21%;
+    @media #{$xl}{
+        left: 50px;
+        width: 13%;
+    }
+    @media #{$md}{
+        display: none;
+    }
+}
+.aae-hero-title {
+    display: inline-block;
+    padding-inline-start: 35px;
+    padding-inline-end: 40px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    position: relative;
+    border-radius: 30px;
+    background-image: url('../img/bg/border.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    @media #{$xl}{
+        width: 80%;
+    }
+    @media #{$lg}{
+        padding-inline-start: 20px;
+        padding-inline-end: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    @media #{$md}{
+        width: 100%;
+    }
+    @media #{$sm}{
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+        border: 0;
+        padding-bottom: 0;
+        background-image: unset;
+    }
+    .aae-border-img {
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        @media #{$lg}{
+            display: none;
+        }
+    }
+    svg{
+        width: 95%;
+        @media #{$sm}{
+            width: 100%;
+            height: 50px;
+        }
+    }
+}
+.aae-hero-subtitle{
+    font-size: 280px;
+    font-family: var(--font_ppfragment) !important;
+    text-align: end;
+    color: var(--white) !important;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 10px;
+    display: inline-block;
+    @media #{$xl}{
+        font-size: 200px;
+    }
+    @media #{$lg}{
+        font-size: 120px;
+    }
+    @media #{$md}{
+        font-size: 120px;
+    }
+    @media #{$sm}{
+        font-size: 50px;
+        text-align: start;
+        padding-top: 10px;
+    }
+}
+.aae-primary-btn-wrapper {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 35px;
+    padding: 23px 8px;
+    @media #{$sm}{
+        padding: 15px 5px;
+    }
+}
+.aae-hero-btn {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    @media #{$md}{
+        padding-top: 20px;
+    }
+    @media #{$sm}{
+        gap: 7px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: self-start;
+        padding-top: 10px;
+    }
+    .aae-primary-btn {
+        padding: 17px 35px;
+        font-size: 18px;
+        font-weight: 600;
+        @media #{$sm}{
+            font-size: 14px;
+            padding-right: 18px;
+        }
+        &.custom-hero-btn{
+            padding: 17px 80px;
+            font-size: 18px;
+            font-weight: 600;
+            padding-right: 40px;
+            @media #{$sm}{
+                padding: 12px 18px;
+                font-size: 14px;
+                padding-right: 18px;
+            }
+        }
+        &.aae-secondary-btn{
+            padding: 15px 41px !important;
+            @media #{$sm}{
+                padding: 12px 18px !important;
+                font-size: 14px;
+            }
+        }
+        @media #{$sm}{
+            padding: 12px 25px;
+        }
+    }
+}
+.your{
+    span{
+        font-size: 28px;
+        line-height: 1;
+        position: absolute;
+        letter-spacing: 4px;
+        top: 0;
+        left: 0;
+        font-family: var(--font_ppfragment) !important;
+        text-transform: uppercase;
+        top: 10%;
+        left: 20.8%;
+        @media #{$xl}{
+            display: none;
+        }
+    }
+}
+.wp{
+    span{
+        position: absolute;
+        top: 17px;
+        right: 46%;
+        font-family: var(--font_primary) !important;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 9px 20px;
+        border-radius: 35px;
+        @media #{$xl}{
+            top: 0;
+            right: 42%;
+        }
+        @media #{$md}{
+            top: -26px;
+        }
+        @media #{$lg}{
+            top: -20px;
+            right: 0;
+            font-size: 16px;
+        }
+        @media #{$sm}{
+            display: none;
+        }
+    }
+    svg{
+        position: absolute;
+        right: -14px;
+        top: -14px;
+    }
+}
+.aae-subscribe {
+    background-color: var(--white-19);
+    width: 120px;
+    height: 120px;
+}
+
+.aae-subscribe-wrap {
+    margin-right: -99px;
+    @media #{$sm}{
+        display: none;
+    }
+}
+.aae-subscribe-text {
+    background-color: var(--primary);
+    height: 63px;
+    width: 63px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .aae-days-number{
+        font-size: 40px;
+        line-height: 1;
+        position: relative;
+        font-family: var(--font_oswald) !important;
+        font-weight: 700;
+        color: var(--white);
+    }
+    .aae-days-text {
+        font-family: var(--font_primary) !important;
+        padding: 2px;
+        background-color: var(--primary);
+        font-size: 9px;
+        font-weight: 600;
+        position: absolute;
+        z-index: 9;
+        top: 16px;
+        right: 0px;
+    }
+}
+
+.subscribe-circle {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/Star-2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    .text {
+      animation: spinner 4s infinite linear;
+      position: absolute;
+    }
+}
+
+@keyframes spinner {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.aae-video-thumb{
+    position: relative;
+    margin-top: -150px;
+    margin-left: -150px;
+    display: inline-block;
+    @media #{$mac}{
+        margin: 0;
+    }
+    @media #{$lg}{
+        margin: 70px 0 0 0;
+    }
+    @media #{$sm}{
+        margin: 40px 0 0 0;
+    }
+    video{
+        width: 450px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        @media #{$mac}{
+            width: 350px;
+        }
+        @media #{$xl}{
+            width: 300px;
+        }
+        @media #{$sm}{
+            width: 100%;
+        }
+    }
+}
+
+
+//css for hero title animation
+.main {
+    background-color: #202020;
+  }
+  .red-border {
+    opacity: 0
+  }
+  .white-border {
+    opacity: 0
+  }
+  .blue-border {
+    opacity: 0
+  }
+  .yellow-border {
+    opacity: 0
+  }
+
+
+  //for your svg
+  .subtitle-underline {
+    position: absolute;
+    left: 21%;
+    top: 19%;
+    @media #{$xl}{
+        display: none;
+    }
+  }
+
+  .char-i {
+    display: block;
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+
+  .aae-hero-title{
+    perspective: 1000px !important;
+  }
+  .aae-hero-title svg {
+    perspective: 1000px !important;
+  }

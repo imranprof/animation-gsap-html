@@ -1,0 +1,48 @@
+.aae-cta-area{
+    position: relative;
+    @media #{$sm}{
+        padding-inline-start: 15px;
+        padding-inline-end: 15px;
+    }
+    .section-title{
+        display: inline-block;
+        padding-bottom: 7px;
+        @media #{$xl}{
+            margin-top: -17px;
+        }
+        @media #{$lg}{
+            margin-top: -7px;
+        }
+    }
+    .section-description {
+        padding-bottom: 20px;
+        @media #{$sm}{
+            padding-bottom: 0;
+        }
+    }
+    .aae-hero-btn{
+        margin-bottom: 0;
+    }
+}
+.cta-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+.cta-img {
+    position: absolute;
+    left: 24%;
+    top: 16%;
+    z-index: -2;
+    @media #{$mac}{
+        left: 15%;
+    }
+    @media #{$lg}{
+        left: 15%;
+        top: 5%;
+    }
+    @media #{$md}{
+        display: none;
+    }
+}

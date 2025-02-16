@@ -1,0 +1,212 @@
+.aae-footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    @media #{$md}{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .aae-primary-btn-wrapper {
+        padding: 8px 8px;
+        @media #{$sm}{
+            width: 100%;
+        }
+    }
+    .aae-primary-btn {
+        padding: 14px 38px;
+        font-size: 18px;
+        font-weight: 600;
+        @media #{$sm}{
+            width: 100%;
+        }
+    }
+}
+.aae-footer-left{
+    display: flex;
+    gap: 180px;
+    flex-basis: 900px;
+    position: relative;
+    padding-bottom: 85px;
+    @media #{$xl}{
+        gap: 100px;
+    }
+    @media #{$lg}{
+        flex-basis: 100%;
+        gap: 50px;
+    }
+    @media #{$md}{
+        padding-bottom: 0;
+    }
+    @media #{$sm}{
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 1px;
+        background: rgba(255, 255, 255, 0.1);
+        @media #{$lg}{
+            display: none;
+        }
+    }
+}
+.aae-footer-item {
+    @media #{$sm}{
+        flex-basis: 100%;
+    }
+}
+.aae-footer-right{
+    padding-inline-start: 173px;
+    flex-basis: 701px;
+    @media #{$xl}{
+        padding-inline-start: 50px;
+    }
+    @media #{$lg}{
+        flex-basis: 70%;
+        padding-inline-start: 0;
+    }
+    @media #{$md}{
+        padding-inline-start: 0;
+    }
+}
+.footer-menu-title{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    @media #{$sm}{
+        margin-bottom: 15px;
+    }
+}
+.aae-footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    li{
+        a{
+            font-size: 16px;
+            line-height: 1;
+            color: #999999;
+            &:hover{
+                color: var(--white);
+            }
+        }
+    }
+}
+.aae-footer-mail{
+    input{
+        background-color: rgba(255, 255, 255, 0.1);
+        color: var(--white);
+        padding: 17px 15px 17px 50px;
+        border-radius: 35px;
+        font-size: 16px;
+        line-height: 1;
+        width: 310px;
+        @media #{$sm}{
+           width: 100%;
+        }
+        &::placeholder{
+            color: 999999;
+            font-size: 18px;
+        }
+    }
+    .aae-footer-mail-desc{
+        color: rgba(153, 153, 153, 1);
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 43px;
+        @media #{$md}{
+            margin-bottom: 25px;
+        }
+    }
+    .aae-input-wrapper{
+        position: relative;
+        @media #{$sm}{
+            flex-basis: 100%;
+        }
+    }
+    .mail-icon {
+        position: absolute;
+        left: 32px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+.aae-footer-form {
+    display: flex;
+    gap: 30px;
+    @media #{$lg}{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+.aae-copyright-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @media #{$md}{
+        margin-top: 40px;
+        flex-direction: column-reverse;;
+        gap: 15px;
+        border: 0;
+    }
+    @media #{$sm}{
+        padding-top: 0;
+    }
+    .aae-copyright-text{
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--white);
+    }
+    .aae-copyright-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        @media #{$sm}{
+            flex-direction: column;
+            padding-top: 30px;
+        }
+        a{
+            text-decoration: underline;
+        }
+    }
+    .aae-copyright-menu{
+        display: flex;
+        gap: 48px;
+        @media #{$lg}{
+            gap: 30px;
+        }
+        @media #{$sm}{
+            gap: 15px;
+        }
+        li{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            a{
+                background-color: #363636;
+                padding: 20px;
+                border-radius: 100px;
+                display: inline-block;
+                font-size: 16px;
+                line-height: 1;
+                @media #{$sm}{
+                    padding: 12px;
+                    font-size: 14px;
+                }
+            }
+            span{
+                @media #{$sm}{
+                    display: none;
+                }
+            }
+        }
+
+    }
+}

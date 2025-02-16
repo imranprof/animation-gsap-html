@@ -1,0 +1,12 @@
+:root{
+    --primary: #F6502C;
+    --secondary: #2c2c2c;
+    --black-2: #202020;
+    --white: #ffffff;
+}
+$mac: 'only screen and (max-width: 1500px)';
+$xl: 'only screen and (max-width: 1399px)';
+$lg: 'only screen and (max-width: 1199px)';
+$md: 'only screen and (max-width: 991px)';
+$sm: 'only screen and (max-width: 767px)';
+$xs: '(max-width: 575px)';

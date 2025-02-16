@@ -1,0 +1,132 @@
+.aae-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+    padding-top: 15px;
+    max-width: 1920px;
+    margin: auto;
+}
+.aae-header-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.aae-logo{
+    position: relative;
+    padding-right: 50px;
+}
+.aae-logo-line{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.aae-navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    li{
+        a{
+            font-size: 16px;
+            line-height: 1;
+            padding-inline-start: 0;
+            padding-inline-end: 0;
+        }
+    }
+}
+.aae-header-btn {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    .aae-primary-btn-wrapper {
+        padding: 12px 6px;
+    }
+}
+// mobile menu 
+@media (min-width:1200px){
+    .aae-mobile-menu-wrapper{
+        display: none;
+    }
+}
+@media (max-width:1200px){
+    .aae-mobile-menu-wrapper {
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .aae-header-area{
+        display: none;
+    }
+}
+.aae-mobile-logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    img{
+        max-width: 110px;
+    }
+}
+.aae-mobile-menu-wrapper{
+    background: linear-gradient(90deg, rgba(246,80,44,1) 0%, rgba(255,153,0,1) 100%);
+}
+.aae-mobile-close {
+    height: 40px;
+    width: 40px;
+    background: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    position: absolute;
+    right: 15px;
+}
+.aae-mobile-menu-area{
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    left: 0;
+    z-index: 3;
+    width: 300px;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+    background-color: var(--secondary);
+    padding: 30px;
+    top: 0;
+    &.offcanvasToggle{
+        opacity: 1;
+        visibility: visible;
+        left: 0;
+    }
+    .aae-navigation-menu{
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+        li{
+            a{
+                padding: 5px;
+                &:hover{
+                    color: var(--white);
+                }
+            }
+        }
+    }
+}
+.aae-mobile-menu-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.aae-mobile-menu{
+    img{
+        cursor: pointer;
+    }
+}

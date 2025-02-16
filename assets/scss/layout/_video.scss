@@ -1,0 +1,74 @@
+.aae-video-area{
+    background-color: #1A1A1A;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    border-radius: 30px;
+    padding-top: 140px;
+    @media #{$xl}{
+        padding-top: 100px;
+    }
+    @media #{$sm}{
+        padding-top: 60px;
+        margin: 0;
+    }
+    .aae-hero-btn{
+        margin-bottom: 0;
+    }
+    video{
+        border-radius: 40px;
+        @media #{$sm}{
+            border-radius: 20px;
+        }
+    }
+    .video-description{
+        padding-bottom: 32px;
+        @media #{$lg}{
+            padding-bottom: 15px;
+        }
+        @media #{$sm}{
+            padding-bottom: 0;
+        }
+    }
+}
+.section-title-wrapper{
+    .video-title{
+        font-size: 130px;
+        line-height: 1;
+        font-weight: 300;
+        color: var(--white);
+        position: relative;
+        margin-bottom: -75px;
+        @media #{$lg}{
+            font-size: 60px;
+        }
+        @media #{$md}{
+            font-size: 50px;
+        }
+        @media #{$sm}{
+            font-size: 36px;
+            margin-bottom: 0;
+        }
+    }
+    .video-subtitle{
+        font-size: 130px;
+        line-height: 1;
+        font-weight: 300;
+        color: var(--white);
+        margin-top: -67px;
+        padding-bottom: 12px;
+        @media #{$lg}{
+            font-size: 60px;
+        }
+        @media #{$md}{
+            font-size: 50px;
+        }
+        @media #{$sm}{
+            font-size: 36px;
+            margin: 0;
+            padding-bottom: 0;
+        }
+    }
+}
+.aae-pricing-inner {
+    margin-top: -20px;
+}

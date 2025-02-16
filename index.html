@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Addon For Elementor</title>
+    <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+    <meta name="description" content="Animation Addon For Elementor">
+    <meta name="keywords" content="Animation Addon For Elementor">
+    <meta name="author" content="Animation Addon For Elementor">
+    <meta name="robots" content="index, follow">
+    <!-- css file included -->
+    <link rel="stylesheet" href="assets/css/icomon.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body class="dark-mode font-body font-heading-dmsans aae-home">
+ 
+        <!-- mobile menu top  -->
+        <div class="aae-mobile-menu">
+            <div class="aae-mobile-menu-wrapper">
+                <div class="aae-mobile-logo">
+                    <img src="assets/img/logo.webp" alt="Animation Addon For Elementor">
+                </div>
+                <div class="aae-mobile-menu">
+                    <img id="offcanvas_toggle" src="assets/img/icons/bar.webp" alt="bar">
+                </div>
+            </div>
+        </div>
+
+        <!-- mobile menu  -->
+        <div class="aae-mobile-menu-area">
+            <div class="aae-mobile-menu-item">
+                <div class="aae-mobile-logo">
+                    <img src="assets/img/logo.webp" alt="Animation Addon For Elementor">
+                    <span class="aae-mobile-close">X</span>
+                </div>
+                <div class="aae-mobile-menu">
+                    <nav class="main-menu">
+                        <ul class="aae-navigation-menu">
+                            <li class="menu-item-has-children"><a href="#">Feature</a>
+                                <ul class="dp-menu">
+                                    <li><a href="#">Animation</a></li>
+                                    <li><a href="#">Transition</a></li>
+                                    <li><a href="#">Hover</a></li>
+                                    <li><a href="#">Scroll</a></li>
+                                    <li><a href="#">Entrance</a></li>
+                                    <li><a href="#">Exit</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children"><a href="#">Widgets</a></li>
+                            <li><a href="#">Themes</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Documentation</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- header section start -->
+        <div class="aae-header-area">
+            <div class="aae-header-wrapper">
+                <div class="aae-header-content">
+                    <div class="aae-logo">
+                        <a href="#">
+                            <img src="assets/img/logo.webp" alt="Animation Addon For Elementor">
+                        </a>
+                        <div class="aae-logo-line"></div>
+                    </div>
+                    <div class="aae-navigation-content">
+                        <nav class="main-menu">
+                            <ul class="aae-navigation-menu">
+                                <li class="menu-item-has-children"><a href="#">Feature</a>
+                                    <ul class="dp-menu">
+                                        <li><a href="#">Animation</a></li>
+                                        <li><a href="#">Transition</a></li>
+                                        <li><a href="#">Hover</a></li>
+                                        <li><a href="#">Scroll</a></li>
+                                        <li><a href="#">Entrance</a></li>
+                                        <li><a href="#">Exit</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">Widgets</a></li>
+                                <li><a href="#">Themes</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Documentation</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="aae-header-btn">
+                    <a href="#" class="aae-login-btn">
+                        <img src="assets/img/icons/user.svg" alt="user">
+                        Login
+                    </a>
+                    <div class="aae-primary-btn-wrapper">
+                        <a href="#" class="aae-primary-btn aae-secondary-btn">
+                            View Pricing
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="has-smooth" id="has_smooth"></div>
+        <div id="smooth-wrapper">
+          <div id="smooth-content" style="overflow: hidden;">
+        <!-- hero section start -->
+        <div class="aae-hero-area">
+            <div class="hero-container">
+                <i class="icon-arrow-right"></i>
+                <div class="aae-hero-wrapper">
+                    <div class="aae-hero-content">
+                        <img src="assets/img/polygon.webp" class="aae-polygon" alt="polygon">
+                        <h1 class="aae-hero-title">
+                            <img src="assets/img/bar.webp" class="aae-border-img" alt="bar">
+
+                            <svg
+                            width="1081"
+                            height="222"
+                            viewBox="0 0 1081 222"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                          <g >
+                            <path
+                            class="char-i"
+                            d="M373 213.6V214.6H374H419.08H420.08V213.6V212.76V212.225L419.635 211.928C414.785 208.695 412.134 205.039 410.662 199.852C409.166 194.581 408.88 187.718 408.88 178.04V75.84V74.786L407.827 74.8414L391.886 75.6804L373.984 75.9601L373 75.9755V76.96V77.8V78.3352L373.445 78.6321C378.319 81.881 380.955 85.2675 382.42 90.2948C383.913 95.4201 384.2 102.276 384.2 112.52V178.04C384.2 187.718 383.914 194.581 382.418 199.852C380.946 205.039 378.295 208.695 373.445 211.928L373 212.225V212.76V213.6ZM383.08 41.68V42.68H384.08H408.16H409.16V41.68V12V11H408.16H384.08H383.08V12V41.68Z"
+                            stroke="white"
+                            stroke-width="2"
+                          />
+                          </g>
+                        
+                            <path
+                              class="char-m"
+                              d="M440 213.84V213C449.8 206.28 450.92 197.6 450.92 178.28V113.04C450.92 92.6 449.8 85.04 440 78.32V77.48H477.8C474.44 83.92 473.6 91.2 473.32 108.56C481.44 89.24 498.24 73 524.84 73C547.24 73 562.08 83.92 565.44 110.24C573.28 90.36 590.36 73 617.8 73C643.56 73 659.24 87.56 659.24 123.4V178.28C659.24 197.6 660.64 206.28 669.88 213V213.84H626.76V213C636 206.28 636.84 197.6 636.84 178.28V124.8C636.84 98.48 627.32 87 608 87C585.32 87 570.76 104.64 566.28 125.08V178.28C566.28 197.6 567.68 206.28 576.92 213V213.84H533.8V213C543.04 206.28 543.6 197.6 543.6 178.28V124.8C543.6 98.48 534.08 87 514.76 87C492.08 87 477.52 104.64 473.04 125.08V178.28C473.04 197.6 474.44 206.28 483.68 213V213.84H440Z"
+                              fill="rgb(255, 95, 87)"
+                            />
+                        
+                            <path
+                              class="char-m-fill"
+                              d="M440 213.84V213C449.8 206.28 450.92 197.6 450.92 178.28V113.04C450.92 92.6 449.8 85.04 440 78.32V77.48H477.8C474.44 83.92 473.6 91.2 473.32 108.56C481.44 89.24 498.24 73 524.84 73C547.24 73 562.08 83.92 565.44 110.24C573.28 90.36 590.36 73 617.8 73C643.56 73 659.24 87.56 659.24 123.4V178.28C659.24 197.6 660.64 206.28 669.88 213V213.84H626.76V213C636 206.28 636.84 197.6 636.84 178.28V124.8C636.84 98.48 627.32 87 608 87C585.32 87 570.76 104.64 566.28 125.08V178.28C566.28 197.6 567.68 206.28 576.92 213V213.84H533.8V213C543.04 206.28 543.6 197.6 543.6 178.28V124.8C543.6 98.48 534.08 87 514.76 87C492.08 87 477.52 104.64 473.04 125.08V178.28C473.04 197.6 474.44 206.28 483.68 213V213.84H440Z"
+                              fill="rgb(253, 188, 46)"
+                              mask="url(#fill-mask)"
+                            />
+                        
+                            <g filter="url(#filter0_b_2947_2704)">
+                              <mask id="path-3-inside-1_2947_2704" fill="white">
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M522.5 12C512.835 12 505 19.835 505 29.5C505 39.165 512.835 47 522.5 47H547.759L552.922 55.9802C553.555 57.0802 555.142 57.0802 555.775 55.9802L560.938 47H586.5C596.165 47 604 39.165 604 29.5C604 19.835 596.165 12 586.5 12H522.5Z"
+                                />
+                              </mask>
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M522.5 12C512.835 12 505 19.835 505 29.5C505 39.165 512.835 47 522.5 47H547.759L552.922 55.9802C553.555 57.0802 555.142 57.0802 555.775 55.9802L560.938 47H586.5C596.165 47 604 39.165 604 29.5C604 19.835 596.165 12 586.5 12H522.5Z"
+                                fill="white"
+                                fill-opacity="0.08"
+                              />
+                              <path
+                                d="M547.759 47L548.626 46.5015L548.337 46H547.759V47ZM552.922 55.9802L552.055 56.4786L552.055 56.4786L552.922 55.9802ZM555.775 55.9802L556.641 56.4786L556.641 56.4786L555.775 55.9802ZM560.938 47V46H560.36L560.071 46.5015L560.938 47ZM506 29.5C506 20.3873 513.387 13 522.5 13V11C512.283 11 504 19.2827 504 29.5H506ZM522.5 46C513.387 46 506 38.6127 506 29.5H504C504 39.7173 512.283 48 522.5 48V46ZM547.759 46H522.5V48H547.759V46ZM553.789 55.4817L548.626 46.5015L546.892 47.4985L552.055 56.4786L553.789 55.4817ZM554.908 55.4817C554.66 55.9131 554.037 55.9131 553.789 55.4817L552.055 56.4786C553.072 58.2474 555.624 58.2474 556.641 56.4786L554.908 55.4817ZM560.071 46.5015L554.908 55.4817L556.641 56.4786L561.805 47.4985L560.071 46.5015ZM586.5 46H560.938V48H586.5V46ZM603 29.5C603 38.6127 595.613 46 586.5 46V48C596.717 48 605 39.7173 605 29.5H603ZM586.5 13C595.613 13 603 20.3873 603 29.5H605C605 19.2827 596.717 11 586.5 11V13ZM522.5 13H586.5V11H522.5V13Z"
+                                fill="white"
+                                fill-opacity="0.1"
+                                mask="url(#path-3-inside-1_2947_2704)"
+                              />
+                            </g>
+                            <g class="color-palatte">
+                              <g class="color-border-wrapper">
+                        
+                        
+                                <path
+                                  class="yellow-border color-border"
+                                  d="M544.5 38C549.194 38 553 34.1944 553 29.5C553 24.8056 549.194 21 544.5 21C539.806 21 536 24.8056 536 29.5C536 34.1944 539.806 38 544.5 38Z"
+                                  stroke="white"
+                                  stroke-opacity="0.2"
+                                  stroke-width="2"
+                                />
+                                <path
+                                  class="white-border color-border"
+                                  d="M564.5 38C569.194 38 573 34.1944 573 29.5C573 24.8056 569.194 21 564.5 21C559.806 21 556 24.8056 556 29.5C556 34.1944 559.806 38 564.5 38Z"
+                                  stroke="white"
+                                  stroke-opacity="0.2"
+                                  stroke-width="2"
+                                />
+                                <path
+                                  class="blue-border color-border"
+                                  d="M584.5 38C589.194 38 593 34.1944 593 29.5C593 24.8056 589.194 21 584.5 21C579.806 21 576 24.8056 576 29.5C576 34.1944 579.806 38 584.5 38Z"
+                                  stroke="white"
+                                  stroke-opacity="0.2"
+                                  stroke-width="2"
+                                />
+                                              <path
+                                class="red-border color-border"
+                                d="M524.5 38C529.194 38 533 34.1944 533 29.5C533 24.8056 529.194 21 524.5 21C519.806 21 516 24.8056 516 29.5C516 34.1944 519.806 38 524.5 38Z"
+                                stroke="white"
+                                stroke-opacity="0.2"
+                                stroke-width="2"
+                              />
+                              </g>
+                                <path
+                                  class="red"
+                                  d="M532 29.5C532 33.6421 528.642 37 524.5 37C520.358 37 517 33.6421 517 29.5C517 25.3579 520.358 22 524.5 22C528.642 22 532 25.3579 532 29.5Z"
+                                  fill="#FF5F57"
+                                />
+                        
+                              <path
+                                class="yellow"
+                                d="M552 29.5C552 33.6421 548.642 37 544.5 37C540.358 37 537 33.6421 537 29.5C537 25.3579 540.358 22 544.5 22C548.642 22 552 25.3579 552 29.5Z"
+                                fill="#FDBC2E"
+                              />
+                        
+                              <path
+                                class="blue"
+                                d="M592 29.5C592 33.6421 588.642 37 584.5 37C580.358 37 577 33.6421 577 29.5C577 25.3579 580.358 22 584.5 22C588.642 22 592 25.3579 592 29.5Z"
+                                fill="#027AFF"
+                              />
+                        
+                              <path
+                                class="white"
+                                d="M572 29.5C572 33.6421 568.642 37 564.5 37C560.358 37 557 33.6421 557 29.5C557 25.3579 560.358 22 564.5 22C568.642 22 572 25.3579 572 29.5Z"
+                                fill="white"
+                              />
+                            </g>
+                        
+                            <g clip-path="url(#clip0_2947_2704)">
+                              <path class="char-nf" d="M213.04 211.84V212.84H214.04H258.84H259.84V211.84V211V210.482L259.417 210.183C254.84 206.952 252.248 203.292 250.772 198.092C249.275 192.818 248.92 185.949 248.92 176.28V123.474C253.643 103.079 268.186 86 290.48 86C300.222 86 307.307 88.8038 311.995 94.6552C316.721 100.555 319.16 109.731 319.16 122.8V176.28C319.16 185.955 318.875 192.828 317.478 198.109C316.101 203.315 313.643 206.968 309.212 210.191L308.8 210.491V211V211.84V212.84H309.8H353.76H354.76V211.84V211V210.482L354.337 210.183C349.76 206.952 347.168 203.292 345.692 198.092C344.195 192.818 343.84 185.949 343.84 176.28V121.4C343.84 103.353 339.824 90.4686 332.315 82.0925C324.786 73.6952 313.902 70 300.56 70C274.937 70 258.125 84.2281 249.018 101.91C249.386 88.0672 250.363 81.546 253.287 75.9426L254.05 74.48H252.4H214.04H213.04V75.48V76.32V76.8552L213.485 77.152C218.359 80.401 220.995 83.7875 222.46 88.8148C223.953 93.9401 224.24 100.796 224.24 111.04V176.28C224.24 185.958 223.954 192.821 222.458 198.092C220.986 203.279 218.335 206.935 213.485 210.168L213.04 210.465V211V211.84Z" stroke="white" stroke-width="2"/>
+                        <path class="char-ns" d="M213.04 211.84V212.84H214.04H258.84H259.84V211.84V211V210.482L259.417 210.183C254.84 206.952 252.248 203.292 250.772 198.092C249.275 192.818 248.92 185.949 248.92 176.28V123.474C253.643 103.079 268.186 86 290.48 86C300.222 86 307.307 88.8038 311.995 94.6552C316.721 100.555 319.16 109.731 319.16 122.8V176.28C319.16 185.955 318.875 192.828 317.478 198.109C316.101 203.315 313.643 206.968 309.212 210.191L308.8 210.491V211V211.84V212.84H309.8H353.76H354.76V211.84V211V210.482L354.337 210.183C349.76 206.952 347.168 203.292 345.692 198.092C344.195 192.818 343.84 185.949 343.84 176.28V121.4C343.84 103.353 339.824 90.4686 332.315 82.0925C324.786 73.6952 313.902 70 300.56 70C274.937 70 258.125 84.2281 249.018 101.91C249.386 88.0672 250.363 81.546 253.287 75.9426L254.05 74.48H252.4H214.04H213.04V75.48V76.32V76.8552L213.485 77.152C218.359 80.401 220.995 83.7875 222.46 88.8148C223.953 93.9401 224.24 100.796 224.24 111.04V176.28C224.24 185.958 223.954 192.821 222.458 198.092C220.986 203.279 218.335 206.935 213.485 210.168L213.04 210.465V211V211.84Z" stroke="white" stroke-width="2"/>
+                            </g>
+                        
+                            <path
+                              d="M898.64 214.28C878.2 214.28 861.4 204.2 861.4 169.2V86.32H832V75.4H861.4V35.36L882.96 18H883.8V75.4H930V86.32H883.8V168.92C883.8 193.56 893.6 199.72 906.48 199.72C918.8 199.72 928.88 192.44 935.6 178.72L938.4 187.12C931.12 204.2 916.56 214.28 898.64 214.28Z"
+                              fill="white"
+                            />
+                            <path
+                              d="M782.96 178.587V179.04C782.96 190.671 785.796 199.263 790.691 204.962C795.603 210.679 802.48 213.36 810.28 213.36C819.519 213.36 825.93 210.165 831.147 204.947L831.454 204.64L831.439 204.207L831.159 195.807L831.087 193.645L829.487 195.1C826.615 197.711 823.506 198.76 819.52 198.76C815.762 198.76 812.812 197.363 810.741 194.081C808.616 190.715 807.36 185.273 807.36 177.08V112.4C807.36 96.34 802.017 85.1738 793.052 78.052C784.127 70.9625 771.76 68 757.92 68C742.077 68 726.877 72.1714 715.365 80.5826C703.828 89.0118 696.04 101.672 695.042 118.501L694.979 119.56H696.04H717.32H718.31L718.32 118.57C718.458 104.951 723.124 95.5083 730.053 89.4583C737.003 83.3893 746.339 80.64 755.96 80.64C765.046 80.64 771.921 82.9119 776.476 86.9022C781.01 90.8739 783.376 96.66 783.24 103.981L783.24 103.985C783.172 108.616 782.238 112.258 780.544 115.24C778.851 118.222 776.359 120.614 773.068 122.683C766.631 126.731 757.322 129.449 745.358 132.942C744.976 133.053 744.592 133.166 744.205 133.279C727.277 138.035 713.746 142.693 704.451 149.389C699.783 152.751 696.158 156.643 693.705 161.34C691.252 166.038 690 171.486 690 177.92C690 190.08 694.375 199.334 701.768 205.531C709.136 211.708 719.397 214.76 731.04 214.76C757.391 214.76 774.468 198.675 782.96 178.587ZM737.48 198.2C730.929 198.2 725.025 196.425 720.775 192.74C716.548 189.073 713.84 183.417 713.84 175.4C713.84 170.973 714.639 167.333 716.165 164.24C717.69 161.148 719.967 158.551 723 156.246C729.107 151.607 738.181 148.22 750.098 144.435C758.752 141.782 766.323 139.45 772.251 136.575C776.806 134.365 780.484 131.793 782.96 128.425V139.28C782.96 156.607 778.246 171.359 770.219 181.754C762.203 192.132 750.867 198.2 737.48 198.2Z"
+                              stroke="white"
+                              stroke-width="2"
+                            />
+                            <g class="char-a-inside">
+                                  <path class="a-inside-path"
+                              d="M63 128.5H136.818L99.8183 24L63 128.5Z"
+                              stroke="white"
+                              stroke-width="2"
+                            />
+                            </g>
+                            
+                            <path
+                              d="M1.46783 212.273L1 212.567V213.12V213.96V214.96H2H44.56H45.56V213.96V213.12V212.557L45.0783 212.265C40.6635 209.589 38.364 206.401 37.7814 201.999C37.1847 197.491 38.3699 191.594 41.3003 183.5L41.3006 183.499L54.5022 146.92H137.934L151.133 184.042C151.134 184.044 151.135 184.046 151.135 184.048C153.641 191.428 154.618 197.102 153.791 201.599C152.981 206.009 150.407 209.424 145.426 212.25L144.92 212.538V213.12V213.96V214.96H145.92H199.4H200.4V213.96V213.12V212.554L199.914 212.263C190.415 206.563 185.476 198.434 179.9 183.098L179.897 183.09L112.137 1.65014L111.894 1H111.2H85.44H84.0755L84.4864 2.30113C86.1118 7.44823 86.6505 12.531 83.9467 19.561L83.9441 19.5677L83.9416 19.5744L24.0216 182.254L24.0179 182.265C18.2093 198.584 11.0679 206.239 1.46783 212.273Z"
+                              stroke="white"
+                              stroke-width="2"
+                            />
+                            
+                            <g class="a-path-helper">
+                              <path
+                              d="M160.351 26.0078L40.3545 26.8603"
+                              stroke="#F6502C"
+                              stroke-width="2"
+                            />
+                            <path
+                              d="M161.429 28.5096C162.841 27.6943 163.325 25.8887 162.51 24.4766C161.694 23.0646 159.889 22.5808 158.477 23.396C157.065 24.2113 156.581 26.0169 157.396 27.429C158.211 28.841 160.017 29.3248 161.429 28.5096Z"
+                              fill="#F6502C"
+                            />
+                            <path
+                              d="M41.4736 29.5651C42.8999 28.7416 43.3886 26.9178 42.5651 25.4915C41.7416 24.0652 39.9178 23.5765 38.4915 24.4C37.0652 25.2235 36.5765 27.0473 37.4 28.4736C38.2235 29.8999 40.0473 30.3886 41.4736 29.5651Z"
+                              fill="#F6502C"
+                            />
+                            <path
+                              d="M94.9108 23.2979C96.5677 20.4281 100.237 19.4449 103.107 21.1017C105.977 22.7586 106.96 26.4281 105.303 29.2979C103.646 32.1676 99.9767 33.1509 97.107 31.494C94.2372 29.8372 93.254 26.1676 94.9108 23.2979Z"
+                              fill="#F6502C"
+                            />
+                            </g>
+                            
+                            <path
+                              d="M1077.76 131.16H1078.78L1078.76 130.145C1078.48 111.581 1072.09 95.7799 1060.9 84.6168C1049.7 73.4516 1033.75 67 1014.48 67C995.043 67 977.906 74.2401 965.63 87.1561C953.356 100.071 946 118.598 946 141.08C946 163.685 952.926 182.076 964.891 194.824C976.86 207.578 993.795 214.6 1013.64 214.6C1032.64 214.6 1047.66 208.284 1058.67 197.949C1069.67 187.626 1076.61 173.349 1079.58 157.504L1079.8 156.32H1078.6H1066.28H1065.49L1065.31 157.086C1062.54 168.574 1057.44 178.812 1049.67 186.169C1041.92 193.509 1031.46 198.04 1017.84 198.04C1001.64 198.04 989.759 191.331 981.899 180.498C974.011 169.625 970.12 154.524 970.12 137.72C970.12 135.496 970.121 133.322 970.306 131.16H1077.76Z"
+                              stroke="white"
+                              stroke-width="2"
+                            />
+                            <path
+                              d="M972.8 119.041H1054.3C1054.3 119.041 1051.3 78.5405 1014.3 80.0407C977.3 81.5408 972.8 119.041 972.8 119.041Z"
+                              stroke="white"
+                              stroke-width="2.2"
+                            />
+                            <path
+                              d="M966.8 118C966.8 114.686 969.486 112 972.8 112C976.114 112 978.8 114.686 978.8 118C978.8 121.314 976.114 124 972.8 124C969.486 124 966.8 121.314 966.8 118Z"
+                              fill="#F6502C"
+                            />
+                            <path
+                              d="M1047.8 118C1047.8 114.686 1050.49 112 1053.8 112C1057.11 112 1059.8 114.686 1059.8 118C1059.8 121.314 1057.11 124 1053.8 124C1050.49 124 1047.8 121.314 1047.8 118Z"
+                              fill="#F6502C"
+                            />
+                            <defs>
+                              <filter
+                                id="filter0_b_2947_2704"
+                                x="500.065"
+                                y="7.06473"
+                                width="108.871"
+                                height="54.6757"
+                                filterUnits="userSpaceOnUse"
+                                color-interpolation-filters="sRGB"
+                              >
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.46764" />
+                                <feComposite
+                                  in2="SourceAlpha"
+                                  operator="in"
+                                  result="effect1_backgroundBlur_2947_2704"
+                                />
+                                <feBlend
+                                  mode="normal"
+                                  in="SourceGraphic"
+                                  in2="effect1_backgroundBlur_2947_2704"
+                                  result="shape"
+                                />
+                              </filter>
+                              <mask id="fill-mask">
+                                <circle id="mask-circle" cx="540" cy="50" r="0" fill="white" />
+                              </mask>
+                              <clipPath id="clip0_2947_2704">
+                                <rect
+                                  width="163"
+                                  height="169"
+                                  fill="white"
+                                  transform="translate(199 47)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+
+                        </h1>
+                        <div class="aae-title-content">
+                            <h2 class="aae-hero-subtitle">
+                                <div class="your">
+                                    <span>your</span>
+                                    <svg class="subtitle-underline" width="96" height="17" viewBox="0 0 96 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 1.99951L94 1.99972" stroke="#F6502C" stroke-width="3"/>
+                                        </svg>
+                                        
+                                </div>
+                                <div class="wp">                                    
+                                    <span>WordPress
+                                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.97369 15.4636C10.9789 14.9011 13.0783 14.6174 15.1148 14.3574C15.5534 14.3029 15.9607 14.607 15.992 15.0355C16.0547 15.4643 15.7412 15.8564 15.3339 15.9109C13.36 16.1612 11.3237 16.429 9.41245 16.9705C9.00514 17.0879 8.56632 16.8461 8.441 16.4302C8.31567 16.0146 8.56638 15.5814 8.97369 15.4636Z" fill="white"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.89579 10.4885C8.1229 7.19637 11.7573 4.32801 14.9218 0.947546C15.2037 0.631832 15.705 0.614918 16.0184 0.909647C16.3317 1.20469 16.3629 1.70081 16.0496 2.01653C12.8851 5.4067 9.2507 8.28446 6.02359 11.5863C5.71028 11.8945 5.2091 11.8989 4.89579 11.5957C4.61381 11.2928 4.58248 10.7967 4.89579 10.4885Z" fill="white"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.8486 0.825543C1.75461 2.70981 1.6608 4.59407 1.56681 6.47865C1.56681 6.91025 1.19065 7.2435 0.752012 7.22252C0.313376 7.20122 0.000247359 6.83383 0.000247359 6.40191C0.0942409 4.51452 0.188051 2.62743 0.282045 0.740349C0.313376 0.308748 0.689411 -0.022314 1.12805 0.00117667C1.53535 0.0246673 1.87994 0.394255 1.8486 0.825543Z" fill="white"/>
+                                        </svg>
+                                    </span>
+                                </div>
+                                websites
+                            </h2>
+                            <div class="aae-hero-btn">
+                                <div class="subscribe-circle-wrap aae-subscribe-wrap">
+                                    <a href="#">
+                                    <div class="subscribe-circle aae-subscribe has_fade_anim">
+                                        <img class=" text show-dark" src="assets/img/curve text.png" alt="Subscribers">
+                                        <div class="aae-subscribe-text">
+                                            <span class="aae-days-number">
+                                                <span class="aae-days-text">Days</span>
+                                                30
+                                            </span>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="aae-primary-btn-wrapper">
+                                    <a href="#" class="aae-primary-btn custom-hero-btn">Start Free Trail</a>
+                                </div>
+                                <div class="aae-primary-btn-wrapper">
+                                    <a href="#" class="aae-primary-btn aae-secondary-btn">See Templates</a>
+                                </div>
+                            </div>
+                            <p class="aae-hero-description"> <img src="assets/img/Star1.webp" alt="star"> Access All Premium Features, <span> No Card </span> Required.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aae-video-wrapper">
+                <div class="aae-video-content">
+                    <div class="aae-video-item">
+                        <div class="aae-video-thumb">
+                            <video src="https://crowdytheme.com/assets/wp-content/uploads/2025/02/intro-video.mp4" loop autoplay muted></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- card section start -->
+        <div class="aae-card-area section-padding-bottom">
+            <img src="assets/img/card-bg.png" class="aae-card-bg" alt="card-bg">
+            <div class="custom-container">
+                <div class="aae-toolkit-grid">
+                    <div class="aae-toolkit-item">
+                        <h2 class="aae-toolkit-title" style="text-align: end;">An Essential Toolkit for</h2>
+                    </div>
+                    <div class="aae-toolkit-item">
+                        <ul class="aae-toolkit-item-card">
+                            <li class="aae-toolkit-item-cards pos-static">
+                                <div class="aae-toolkit-item-card-list">
+                                    <div class="aae-toolkit-card-number-wrap">
+                                        <h3 class="aae-toolkit-card-number">1/3</h3>
+                                    </div>
+                                    <div class="aae-toolkit-card-icon">
+                                        <img src="assets/img/card1.webp" alt="icon">
+                                    </div>
+                                    <div class="aae-toolkit-card-content">
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g1.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Personalize experiences</h2>
+                                        </div>
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g2.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Maximize visual impact</h2>
+                                        </div>
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g3.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Elevate brand presence</h2>
+                                        </div>
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g4.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Streamline your workflow</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="aae-toolkit-item-cards">
+                                <div class="aae-toolkit-item-card-list">
+                                    <div class="aae-toolkit-card-number-wrap">
+                                        <h3 class="aae-toolkit-card-number">1/3</h3>
+                                    </div>
+                                    <div class="aae-toolkit-card-icon">
+                                        <img src="assets/img/card1.webp" alt="icon">
+                                    </div>
+                                    <div class="aae-toolkit-card-content">
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g1.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Personalize experiences</h2>
+                                        </div>
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g2.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Maximize visual impact</h2>
+                                        </div>
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g3.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Elevate brand presence</h2>
+                                        </div>
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g4.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Streamline your workflow</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="aae-toolkit-item-cards">
+                                <div class="aae-toolkit-item-card-list">
+                                    <div class="aae-toolkit-card-number-wrap">
+                                        <h3 class="aae-toolkit-card-number">1/3</h3>
+                                    </div>
+                                    <div class="aae-toolkit-card-icon">
+                                        <img src="assets/img/card1.webp" alt="icon">
+                                    </div>
+                                    <div class="aae-toolkit-card-content">
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g1.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Personalize experiences</h2>
+                                        </div>
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g2.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Maximize visual impact</h2>
+                                        </div>
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g3.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Elevate brand presence</h2>
+                                        </div>
+                                        <div class="aae-content-item-wrapper">
+                                            <div class="aae-content-item-bg">
+                                                <img src="assets/img/icons/g4.png" alt="icon">
+                                            </div>
+                                            <h2 class="aae-content-title">Streamline your workflow</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aae-toolkit-item">
+                        <h2 class="aae-toolkit-title">Independent <span class="highlight">Freelancers</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- featured Section -->
+        <div class="aae-feature-area section-padding">
+            <div class="custom-container">
+                <div class="aae-feature-top">
+                    <div class="aae-feature-left">
+                        <h2 class="section-title"> <svg width="93" height="102" viewBox="0 0 93 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 93C9 93 12.093 60.1193 27.0767 58.9628C38.7026 58.0655 48.2332 77.1501 59.49 80.197C98.4484 90.7421 77.5667 9 77.5667 9" stroke="url(#paint0_linear_2483_1193)" stroke-width="18" stroke-linecap="round"/>
+                            <circle cx="23.5" cy="28.5" r="12.5" fill="#9ED600"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_2483_1193" x1="79.3288" y1="5.22471" x2="0.811397" y2="34.087" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#9ED600"/>
+                            <stop offset="1" stop-color="#0094C2"/>
+                            </linearGradient>
+                            </defs>
+                            </svg> <span class="gradient-text">Animations</span> with <br> Our Exclusive <svg width="122" height="60" viewBox="0 0 122 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M116.576 60C119.704 60 122.267 57.51 121.978 54.4584C120.664 40.5781 114.447 27.5121 104.303 17.5736C92.8182 6.32141 77.2417 1.2014e-06 61 0C44.7583 -1.2014e-06 29.1819 6.32141 17.6972 17.5736C7.5535 27.512 1.33583 40.5781 0.0222409 54.4583C-0.266555 57.5099 2.2964 60 5.42441 60L61 60H116.576Z" fill="url(#paint0_linear_2487_1259)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_2487_1259" x1="61" y1="0" x2="61" y2="60" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F6502C"/>
+                                <stop offset="1" stop-color="#FF9900"/>
+                                </linearGradient>
+                                </defs>
+                                </svg> <br> High-Functional Features</h2>
+                        <div class="aae-feature-btn-wrapper">
+                            <div class="aae-hero-btn">
+                                <div class="aae-primary-btn-wrapper">
+                                    <a href="#" class="aae-primary-btn">Start Free Trail</a>
+                                </div>
+                                <div class="aae-primary-btn-wrapper">
+                                    <a href="#" class="aae-primary-btn aae-secondary-btn">Purchase Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aae-feature-right">
+                        <div class="aae-description">
+                            <p>Years of <span>experience</span> designs & development helps  bring you an well <span>crafted sets</span> of widgets that brings some elegant look.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aae-feature-bottom">
+                    <ul class="aae-feature-grid">
+                        <li class="aae-feature-item">
+                            <div class="aae-feature-item-content">
+                                <span class="aae-feature-item-title">10k+</span>
+                                <span class="aae-feature-item-subtitle">Pre-built Sections</span>
+                                <p class="aae-feature-item-desc">Get secure web hosting, custom needs. So sale on online.</p>
+                            </div>
+                            <div class="thumb-video">
+                                <img src="assets/img/features/f1.webp" alt="featured">
+                            </div>
+                        </li>
+                        <li class="aae-feature-item feature-item-two">
+                            <div class="aae-feature-item-content">
+                                <span class="aae-feature-item-subtitle">Custom Animation Builder</span>
+                            </div>
+                            <div class="thumb-image">
+                                <img src="assets/img/features/f2.webp" alt="featured">
+                            </div>
+                        </li>
+                        <li class="aae-feature-item feature-item-three" style="background-image: url('assets/img/features/f3.webp');">
+                            <div class="aae-feature-item-content">
+                                <span class="aae-feature-item-subtitle">100+ Innovative & Required Widgets</span>
+                            </div>
+                        </li>
+                        <li class="aae-feature-item feature-item-four">
+                            <div class="aae-feature-item-content">
+                                <span class="aae-feature-item-title">GSAP</span>
+                                <span class="aae-feature-item-subtitle">Integrated Capabilities</span>
+                                <p class="aae-feature-item-desc">Get secure web hosting, custom needs. So sale on online.</p>
+                            </div>
+                            <div class="thumb-image">
+                                <img src="assets/img/features/f4.webp" alt="featured">
+                            </div>
+                        </li>
+                        <li class="aae-feature-item feature-item-five">
+                            <div class="aae-feature-item-content">
+                                <span class="aae-feature-item-subtitle">25+ Exclusive Extensions</span>
+                            </div>
+                            <div class="thumb-image">
+                                <img src="assets/img/features/f5.webp" alt="featured">
+                            </div>
+                        </li>
+                        <li class="aae-feature-item feature-item-three six" style="background-image: url('assets/img/features/f6.webp');">
+                            <button class="aae-feature-popup-btn"><img src="assets/img/icons/plus.svg" alt="plus"></button>
+                            <div class="aae-feature-item-content">
+                                <span class="aae-feature-item-title">100k+</span>
+                                <span class="aae-feature-item-subtitle">👑 Premium Pre-designed <br> Websites</span>
+                            </div>
+                            <div class="aae-feature-modal">
+                                <div class="title"></div>
+                                <div class="description">
+                                    <p></p>
+                                </div>
+                                <div class="aae-hero-btn">
+                                    <div class="aae-primary-btn-wrapper">
+                                        <a href="#" class="aae-primary-btn">Start Free Trail</a>
+                                    </div>
+                                    <div class="aae-primary-btn-wrapper">
+                                        <a href="#" class="aae-primary-btn aae-secondary-btn">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aae-feature-item feature-item-three" style="background-image: url('assets/img/features/f3.webp');">
+                            <div class="aae-feature-item-content">
+                                <span class="aae-feature-item-subtitle">100+ Innovative & Required Widgets</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- demo section start -->
+        <div class="aae-demo-area section-padding">
+            <div class="aae-demo-inner">
+                <div class="section-title-wrapper">
+                    <span class="section-text">100+</span>
+                    <h2 class="section-title">Get 100+ pre-built <br> website demos</h2>
+                    <div class="section-description">
+                        <p>Get a headstart on your journey with 900+ free, customizable pre-built website demos, <br> strategically researched and tailored for every industry</p>
+                    </div>
+                </div>
+                <div class="aae-filter-button-wrapper">
+                    <ul class="aae-filter-buttons">
+                        <li><a href="#">Latest</a></li>
+                        <li><a href="#">Agency</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Personal</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">SaaS</a></li>
+                        <li><a href="#">SaaS</a></li>
+                        <li><a href="#">All Demos <img src="assets/img/icons/rotate.svg" alt="rotate"></a></li>
+                    </ul>
+                </div>
+                <div class="aae-demo-grid">
+                    <a href="#">
+                        <div class="aae-demo-grid-item">
+                            <div class="aae-demo-grid-item-thumb">
+                                <img src="assets/img/demo/demo1.webp" alt="demo">
+                            </div>
+                            <h2 class="aae-demo-grid-item-title">Branding Agency</h2>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="aae-demo-grid-item">
+                            <div class="aae-demo-grid-item-thumb">
+                                <img src="assets/img/demo/demo2.webp" alt="demo">
+                            </div>
+                            <h2 class="aae-demo-grid-item-title">Design Agency</h2>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="aae-demo-grid-item">
+                            <div class="aae-demo-grid-item-thumb">
+                                <img src="assets/img/demo/demo3.webp" alt="demo">
+                            </div>
+                            <h2 class="aae-demo-grid-item-title">Design Studio</h2>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="aae-demo-grid-item">
+                            <div class="aae-demo-grid-item-thumb">
+                                <img src="assets/img/demo/demo3.webp" alt="demo">
+                            </div>
+                            <h2 class="aae-demo-grid-item-title">Mobile Apps</h2>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="aae-demo-grid-item">
+                            <div class="aae-demo-grid-item-thumb">
+                                <img src="assets/img/demo/demo5.webp" alt="demo">
+                            </div>
+                            <h2 class="aae-demo-grid-item-title">Branding Agency</h2>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="aae-demo-grid-item">
+                            <div class="aae-demo-grid-item-thumb">
+                                <img src="assets/img/demo/demo6.webp" alt="demo">
+                            </div>
+                            <h2 class="aae-demo-grid-item-title">Design Agency</h2>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="aae-demo-grid-item">
+                            <div class="aae-demo-grid-item-thumb">
+                                <img src="assets/img/demo/demo7.webp" alt="demo">
+                            </div>
+                            <h2 class="aae-demo-grid-item-title">Design Studio</h2>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="aae-demo-grid-item">
+                            <div class="aae-demo-grid-item-thumb">
+                                <img src="assets/img/demo/demo8.webp" alt="demo">
+                            </div>
+                            <h2 class="aae-demo-grid-item-title">Mobile Apps</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="aae-filter-btn-wrapper">
+                    <div class="aae-primary-btn-wrapper">
+                        <a href="#" class="aae-primary-btn">Browse All Demos </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- widgets section start -->
+        <div class="aae-widgets-area section-padding">
+        <img src="assets/img/card-bg.png" class="aae-card-bg" alt="card-bg">
+        <div class="custom-container">
+            <div class="aae-widgets-inner">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Design your dream site <br> with 70+ Widgets</h2>
+                    <div class="section-description">
+                        <p>Our years of experience on designs and development helps to bring you an well crafted <br> sets of widgets that brings some elegant look and feel to your websites</p>
+                    </div>
+                    <div class="aae-hero-btn">
+                        <div class="aae-primary-btn-wrapper">
+                            <a href="#" class="aae-primary-btn">Browse All Widgets </a>
+                        </div>
+                        <div class="aae-primary-btn-wrapper">
+                            <a href="#" class="aae-primary-btn aae-secondary-btn">Start Free Trail</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="aae-widgets-item aae-widgets-item-one">
+                    <div class="aae-widgets-item-icon">
+                        <img src="assets/img/icons/w1.svg" alt="icon">
+                    </div>
+                    <div class="aae-widgets-item-content">
+                        <h2 class="aae-widgets-item-title">24</h2>
+                        <div class="aae-widgets-item-wrapper">
+                            <p class="aae-widgets-description">General</p>
+                            <a href="#" class="aae-widgets-btn">Explore Widgets <img src="assets/img/icons/arrow-right.svg" alt="arrow-right"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="aae-widgets-item aae-widgets-item-two">
+                    <div class="aae-widgets-item-icon">
+                        <img src="assets/img/icons/w2.svg" alt="icon">
+                    </div>
+                    <div class="aae-widgets-item-content">
+                        <h2 class="aae-widgets-item-title">24</h2>
+                        <div class="aae-widgets-item-wrapper">
+                            <p class="aae-widgets-description">General</p>
+                            <a href="#" class="aae-widgets-btn">Explore Widgets <img src="assets/img/icons/arrow-right.svg" alt="arrow-right"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="aae-widgets-item aae-widgets-item-three">
+                    <div class="aae-widgets-item-icon">
+                        <img src="assets/img/icons/w3.svg" alt="icon">
+                    </div>
+                    <div class="aae-widgets-item-content">
+                        <h2 class="aae-widgets-item-title">24</h2>
+                        <div class="aae-widgets-item-wrapper">
+                            <p class="aae-widgets-description">General</p>
+                            <a href="#" class="aae-widgets-btn">Explore Widgets <img src="assets/img/icons/arrow-right.svg" alt="arrow-right"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- extention section start  -->
+        <div class="aae-extention-area section-padding">
+            <div class="extention-container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Refined with 24+ <br> advance extensions</h2>
+                    <div class="section-description">
+                        <p>Our years of experience on designs and development helps to bring you an well crafted <br> sets of widgets that brings some elegant look and feel to your websites</p>
+                    </div>
+                    <div class="aae-hero-btn">
+                        <div class="aae-primary-btn-wrapper">
+                            <a href="#" class="aae-primary-btn">Browse All Extensions</a>
+                        </div>
+                        <div class="aae-primary-btn-wrapper">
+                            <a href="#" class="aae-primary-btn aae-secondary-btn">Start Free Trail</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="aae-extention-items">
+                    <div class="aae-extention-item w-220">
+                        <span>Custom CSS</span>
+                    </div>
+                    <div class="aae-extention-item w-150">
+                        <span>Smooth</span>
+                    </div>
+                    <div class="aae-extention-item w-120">
+                        <span>Insight</span>
+                    </div>
+                    <div class="aae-extention-item w-150">
+                        <span>Effect</span>
+                    </div>
+                    <div class="aae-extention-item w-380">
+                        <span>Wrapper Link</span>
+                    </div>
+                    <div class="aae-extention-item w-250">
+                        <span>Draw SVG</span>
+                    </div>
+                    <div class="aae-extention-item w-250">
+                        <span>Draw SVG</span>
+                    </div>
+                    <div class="aae-extention-item w-220">
+                        <span>Custom Fonts</span>
+                    </div>
+                    <div class="aae-extention-item w-200">
+                        <span>Tilt Effect</span>
+                    </div>
+                    <div class="aae-extention-item w-120">
+                        <span>Popup</span>
+                    </div>
+                    <div class="aae-extention-item w-120">
+                        <span>Flip</span>
+                    </div>
+                    <div class="aae-extention-item w-250">
+                        <span>Advanced Tooltip</span>
+                    </div>
+                    <div class="aae-extention-item w-250">
+                        <span>Advanced Tooltip</span>
+                    </div>
+                 </div>
+            </div>
+        </div>
+
+        <!-- video section start -->
+         <div class="aae-video-area section-padding">
+            <div class="custom-container">
+                <div class="aae-video-inner">
+                    <div class="section-title-wrapper">
+                        <h2 class="video-title">Simple, pro-Level</h2>
+                        <video src="https://crowdytheme.com/assets/wp-content/uploads/2025/02/331e-4311-bed4-b8f2a8c6b45a.mp4" autoplay loop muted></video>
+                        <h2 class="video-subtitle">Animation Builder</h2>
+                        <div class="video-description">
+                            <p>Our years of experience on designs and development helps to bring you an well crafted <br> sets of widgets that brings some elegant look and feel to your websites</p>
+                        </div>
+                        <div class="aae-hero-btn">
+                            <div class="aae-primary-btn-wrapper">
+                                <a href="#" class="aae-primary-btn">See Overview</a>
+                            </div>
+                            <div class="aae-primary-btn-wrapper">
+                                <a href="#" class="aae-primary-btn aae-secondary-btn">Start Free Trail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        <!-- pricing section start -->
+        <div class="aae-pricing-area section-padding">
+        <div class="custom-container-2">
+            <div class="aae-pricing-inner">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Designed the right <br> plans for you</h2>
+                </div>
+                <div class="aae-pricing-items">
+                    <div class="aae-pricing-item">
+                        <div class="aae-pricing-header">
+                            <h2 class="title">Starter</h2>
+                            <p class="desc">Ability to understand and generate content</p>
+                        </div>
+                        <div class="aae-pricing-content">
+                            <h2 class="price-tag">$19.35</h2>
+                            <ul class="reneue">
+                                <li>1 site</li>
+                                <li>1 year</li>
+                            </ul>
+                            <div class="aae-primary-btn-wrapper">
+                                <a href="#" class="aae-primary-btn aae-secondary-btn">Get started now</a>
+                            </div>
+                        </div>
+                        <div class="aae-pricing-footer">
+                            <ul class="pricing-features">
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> All Widgets</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Unlimited Section Nesting</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Website Templates</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Advanced Marketing Solution</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Standard Site Analytics</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Developer Mode</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="aae-pricing-item">
+                        <div class="aae-pricing-header">
+                            <h2 class="title">Professional</h2>
+                            <p class="desc">Ability to understand and generate content</p>
+                        </div>
+                        <div class="aae-pricing-content">
+                            <h2 class="price-tag">$39.35</h2>
+                            <ul class="reneue">
+                                <li>03 site</li>
+                                <li>1 year</li>
+                            </ul>
+                            <div class="aae-primary-btn-wrapper">
+                                <a href="#" class="aae-primary-btn aae-secondary-btn">Get started now</a>
+                            </div>
+                        </div>
+                        <div class="aae-pricing-footer">
+                            <ul class="pricing-features">
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> All Widgets</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Unlimited Section Nesting</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Website Templates</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Advanced Marketing Solution</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Standard Site Analytics</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Developer Mode</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="aae-pricing-item">
+                        <div class="price-ribon">
+                            <span>Popular</span>
+                        </div>
+                        <div class="aae-pricing-header">
+                            <h2 class="title">Advanced</h2>
+                            <p class="desc">Ability to understand and generate content</p>
+                        </div>
+                        <div class="aae-pricing-content">
+                            <h2 class="price-tag">$79.35</h2>
+                            <ul class="reneue">
+                                <li>05 site</li>
+                                <li>1 year</li>
+                            </ul>
+                            <div class="aae-primary-btn-wrapper">
+                                <a href="#" class="aae-primary-btn aae-secondary-btn">Get started now</a>
+                            </div>
+                        </div>
+                        <div class="aae-pricing-footer">
+                            <ul class="pricing-features">
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> All Widgets</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Unlimited Section Nesting</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Website Templates</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Advanced Marketing Solution</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Standard Site Analytics</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Developer Mode</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="aae-pricing-item">
+                        <div class="aae-pricing-header">
+                            <h2 class="title">Enterprise</h2>
+                            <p class="desc">Ability to understand and generate content</p>
+                        </div>
+                        <div class="aae-pricing-content">
+                            <h2 class="price-tag">$99.35</h2>
+                            <ul class="reneue">
+                                <li>15 site</li>
+                                <li>Life time</li>
+                            </ul>
+                            <div class="aae-primary-btn-wrapper">
+                                <a href="#" class="aae-primary-btn aae-secondary-btn">Get started now</a>
+                            </div>
+                        </div>
+                        <div class="aae-pricing-footer">
+                            <ul class="pricing-features">
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> All Widgets</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Unlimited Section Nesting</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Website Templates</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Advanced Marketing Solution</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Standard Site Analytics</li>
+                                <li> <img src="assets/img/icons/check.svg" alt="check"> Developer Mode</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div> 
+
+        <!-- reviews section start -->
+         <div class="aae-reviews-area section-padding">
+            <div class="custom-container">
+                <div class="aae-reviews-inner">
+                    <div class="aae-reviews-top">
+                        <img src="assets/img/reviews-img.png" alt="reviews">
+                        <div class="aae-reviews-right">
+                            <h3 class="reviews-count">4000+ Reviews <br> (5.0/5 Star)</h3>
+                        </div>
+                    </div>
+                    <div class="section-title-wrapper">
+                        <h2 class="section-title">3092 Reviews <br> & Still Counting...</h2>
+                    </div>
+                    <div class="aae-reviews-grid">
+                        <div class="aae-reviews-item">
+                            <div class="top">
+                                <img src="assets/img/review/quote.png" alt="quote">
+                                <img src="assets/img/review/star.svg" alt="rating">
+                            </div>
+                            <div class="content">
+                                <p class="review-desc">I decided to review the design of my website and also wanted to move away from WordPress. I really liked the idea of a statically generated website because they are fast, secure, easy to maintain, and offer a great developer experience. I searched for companies that could help me migrate my website from WordPress</p>
+                            </div>
+                            <div class="footer">
+                                <div class="thumb">
+                                    <img src="assets/img/review/author.png" alt="author">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <h2 class="name">Kristopher Willms</h2>
+                                        <h2 class="post">Loreal</h2>
+                                    </div>
+                                    <div class="icon">
+                                        <span>fb</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aae-reviews-item">
+                            <div class="top">
+                                <img src="assets/img/review/quote.png" alt="quote">
+                                <img src="assets/img/review/star.svg" alt="rating">
+                            </div>
+                            <div class="content">
+                                <p class="review-desc">I decided to review the design of my website and also wanted to move away from WordPress. I really liked the idea of a statically generated website because they are fast, secure, easy to maintain, and offer a great developer experience. I searched for companies that could help me migrate my website from WordPress</p>
+                            </div>
+                            <div class="footer">
+                                <div class="thumb">
+                                    <img src="assets/img/review/author2.png" alt="author">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <h2 class="name">Kristopher Willms</h2>
+                                        <h2 class="post">Loreal</h2>
+                                    </div>
+                                    <div class="icon">
+                                        <span>fb</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aae-reviews-item">
+                            <div class="top">
+                                <img src="assets/img/review/quote.png" alt="quote">
+                                <img src="assets/img/review/star.svg" alt="rating">
+                            </div>
+                            <div class="content">
+                                <p class="review-desc">I decided to review the design of my website and also wanted to move away from WordPress. I really liked the idea of a statically generated website because they are fast, secure, easy to maintain, and offer a great developer experience. I searched for companies that could help me migrate my website from WordPress</p>
+                            </div>
+                            <div class="footer">
+                                <div class="thumb">
+                                    <img src="assets/img/review/author3.png" alt="author">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <h2 class="name">Kristopher Willms</h2>
+                                        <h2 class="post">Loreal</h2>
+                                    </div>
+                                    <div class="icon">
+                                        <span>fb</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aae-reviews-item">
+                            <a href="#" class="play-video-btn">
+                                <span>play</span>
+                            </a>
+                            <div class="content">
+                                <img src="assets/img/review/1.png" alt="review">
+                            </div>
+                            <div class="footer">
+                                <div class="thumb">
+                                    <img src="assets/img/review/author3.png" alt="author">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <h2 class="name">Kristopher Willms</h2>
+                                        <h2 class="post">Bank of America</h2>
+                                    </div>
+                                    <div class="icon">
+                                        <span>fb</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aae-reviews-item">
+                            <div class="top">
+                                <img src="assets/img/review/quote.png" alt="quote">
+                                <img src="assets/img/review/star.svg" alt="rating">
+                            </div>
+                            <div class="content">
+                                <p class="review-desc">We are grateful to Studio for all of their hard work on our website; the finished website was fantastic. We got all the functionality we needed. They looking for. Highly skilled team. </p>
+                            </div>
+                            <div class="footer">
+                                <div class="thumb">
+                                    <img src="assets/img/review/author2.png" alt="author">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <h2 class="name">Kristopher Willms</h2>
+                                        <h2 class="post">Loreal</h2>
+                                    </div>
+                                    <div class="icon">
+                                        <span>fb</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aae-reviews-item">
+                            <a href="#" class="play-video-btn">
+                                <span>play</span>
+                            </a>
+                            <div class="content">
+                                <img src="assets/img/review/4.png" alt="review">
+                            </div>
+                            <div class="footer">
+                                <div class="thumb">
+                                    <img src="assets/img/review/author4.png" alt="author">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <h2 class="name">Kristopher Willms</h2>
+                                        <h2 class="post">Bank of America</h2>
+                                    </div>
+                                    <div class="icon">
+                                        <span>fb</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aae-reviews-item">
+                            <div class="top">
+                                <img src="assets/img/review/quote.png" alt="quote">
+                                <img src="assets/img/review/star.svg" alt="rating">
+                            </div>
+                            <div class="content">
+                                <p class="review-desc">We have an old website based on Jekyll and wanted to migrate the website Hugo with new design. Zeon Studio provided good consultancy and helped us successfully complete the migration process. It was a very nice experience working with the team and we’re happy with it.</p>
+                            </div>
+                            <div class="footer">
+                                <div class="thumb">
+                                    <img src="assets/img/review/author.png" alt="author">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <h2 class="name">Kristopher Willms</h2>
+                                        <h2 class="post">Loreal</h2>
+                                    </div>
+                                    <div class="icon">
+                                        <span>fb</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aae-hero-btn">
+                        <div class="aae-primary-btn-wrapper">
+                            <a href="#" class="aae-primary-btn">Start Free Trail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        <!-- faq section start  -->
+        <div class="aae-faq-area section-padding">
+            <div class="custom-container-2">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Have question? <br> we’re here to help</h2>
+                </div>
+                <div class="aae-faq-grid">
+                    <div class="aae-faq-left">
+                        <div class="aae-faq-item">
+                            <h2 class="aae-faq-item-title">Documentation & <br> Inspiration</h2>
+                            <a href="#" class="aae-faq-item-btn">View Documentation <img src="assets/img/icons/chevron-right.png" alt=""> </a>
+                        </div>
+                        <div class="aae-faq-item">
+                            <h2 class="aae-faq-item-title">Become a part <br> of our community</h2>
+                            <a href="#" class="aae-faq-item-btn">Join Community <img src="assets/img/icons/chevron-right.png" alt=""> </a>
+                        </div>
+                        <div class="aae-faq-item">
+                            <h2 class="aae-faq-item-title">Didn’t find Your <br> Answer?</h2>
+                            <a href="#" class="aae-faq-item-btn">Contact US <img src="assets/img/icons/chevron-right.png" alt=""> </a>
+                        </div>
+                    </div>
+                    <div class="aae-faq-right">
+                        <div class="aae-faq-accordion-item">
+                            <h2 class="aae-faq-accordion-title">How to install the plugin?</h2>
+                            <div class="aae-faq-accordion-content">
+                                <p>Love the high quality of design each widget haves, and for each widget there are like 10 different examples. Also they didn’t bother to include every demo they showcased so you can easily import it on your website!</p>
+                            </div>
+                        </div>
+                        <div class="aae-faq-accordion-item">
+                            <h2 class="aae-faq-accordion-title">How to install the plugin?</h2>
+                            <div class="aae-faq-accordion-content">
+                                <p>Our years of experience on designs and development helps to bring you an well crafted sets of widgets that brings some elegant look and feel to your websites</p>
+                            </div>
+                        </div>
+                        <div class="aae-faq-accordion-item">
+                            <h2 class="aae-faq-accordion-title">How to install the plugin?</h2>
+                            <div class="aae-faq-accordion-content">
+                                <p>Our years of experience on designs and development helps to bring you an well crafted sets of widgets that brings some elegant look and feel to your websites</p>
+                            </div>
+                        </div>
+                        <div class="aae-faq-accordion-item">
+                            <h2 class="aae-faq-accordion-title">How to install the plugin?</h2>
+                            <div class="aae-faq-accordion-content">
+                                <p>Our years of experience on designs and development helps to bring you an well crafted sets of widgets that brings some elegant look and feel to your websites</p>
+                            </div>
+                        </div>
+                        <div class="aae-faq-accordion-item">
+                            <h2 class="aae-faq-accordion-title">How to install the plugin?</h2>
+                            <div class="aae-faq-accordion-content">
+                                <p>Our years of experience on designs and development helps to bring you an well crafted sets of widgets that brings some elegant look and feel to your websites</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- text slider section start -->
+         <div class="aae-text-slider section-padding-bottom">
+            <div class="aae-text-slider-inner">
+                <div class="aae-text-slider-item">
+                    <h2 class="aae-text-slider-title marquee">Turn your vision into motion</h2>
+                </div>
+            </div>
+         </div>
+
+        <!-- cta section start -->
+         <div class="aae-cta-area section-padding-bottom">
+            <img src="assets/img/bg/cta.png" alt="cta" class="cta-bg">
+            <img src="assets/img/icons/cta-img.svg" alt="cta" class="cta-img">
+            <div class="aae-cta-inner">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title"> Convinced?Try <br> Animation Addons now.</h2>
+                    <div class="section-description">
+                        <p>Convinced? Experience the power of Animation Addons and enhance your projects <br> with ease. Try it today and elevate your creative workflow.</p>
+                    </div>
+                    <div class="aae-hero-btn">
+                        <div class="aae-primary-btn-wrapper">
+                            <a href="#" class="aae-primary-btn">Start Free Trail</a>
+                        </div>
+                        <div class="aae-primary-btn-wrapper">
+                            <a href="#" class="aae-primary-btn aae-secondary-btn">Purchase Premium</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+        <!-- footer section start -->
+        <footer class="aae-footer-area section-padding-top">
+        <div class="custom-container">
+            <div class="aae-footer-wrapper">
+                <div class="aae-footer-left">
+                    <div class="aae-footer-item">
+                        <h3 class="footer-menu-title">Company</h3>
+                        <ul class="aae-footer-menu">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Affiliates</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Themeforest</a></li>
+                            <li><a href="#">Webflow</a></li>
+                            <li><a href="#">Crowdyflow</a></li>
+                        </ul>
+                    </div>
+                    <div class="aae-footer-item">
+                        <h3 class="footer-menu-title">Terms</h3>
+                        <ul class="aae-footer-menu">
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">GDPR</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Support Policy</a></li>
+                            <li><a href="#">Affiliates Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="aae-footer-item">
+                        <h3 class="footer-menu-title">Terms</h3>
+                        <ul class="aae-footer-menu">
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">GDPR</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Support Policy</a></li>
+                            <li><a href="#">Affiliates Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aae-footer-right">
+                    <div class="aae-footer-mail">
+                        <h3 class="footer-menu-title">Subscribe to Newsletter</h3>
+                        <p class="aae-footer-mail-desc">Stay up to date with all the recent news, updates and great discounts by simply adding your email</p>
+                        <form action="#" class="aae-footer-form">
+                            <div class="aae-input-wrapper">
+                                <div class="aae-primary-btn-wrapper">
+                                    <input type="email"  placeholder="Enter your email">
+                                    <img class="mail-icon" src="assets/img/icons/mail.svg" alt="mailIcon">
+                                </div>
+                            </div>
+                            <div class="aae-primary-btn-wrapper">
+                                <button type="submit" class="aae-primary-btn">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="aae-copyright-area">
+                <div class="aae-copyright-left">
+                    <div class="aae-footer-logo">
+                        <img src="assets/img/footer-logo.png" alt="Animation Addon For Elementor">
+                    </div>
+                    <p class="aae-copyright-text">All rights reserved by <a href="#">Animation Addons</a></p>
+                </div>
+                <div class="aae-copyright-right">
+                    <ul class="aae-copyright-menu">
+                        <li>
+                            <a href="#"><img src="assets/img/icons/fb.svg" alt="facebook"></a>
+                            <span>Facebook</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/icons/x.svg" alt="x"></a>
+                            <span>Twitter</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/icons/dr.png" alt="dr"></a>
+                            <span>Dribbble</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/icons/ins.svg" alt="ins"></a>
+                            <span>Instagram</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </footer>
+        
+    </div>
+</div>
+
+    <!-- js file included -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/MorphSVGPlugin.min.js"></script>
+    <script src="assets/js/DrawSVGPlugin.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/Flip.min.js"></script>
+    <script src="assets/js/animation.js"></script>
+</body>
+</html>

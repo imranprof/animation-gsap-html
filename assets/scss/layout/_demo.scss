@@ -1,0 +1,116 @@
+.aae-demo-area{
+    position: relative;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+    padding-top: 220px;
+    @media #{$xl}{
+        padding-top: 200px;
+    }
+    @media #{$lg}{
+        padding-top: 100px;
+        padding-inline-start: 20px;
+        padding-inline-end: 20px;
+    }
+    @media #{$md}{
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    @media #{$sm}{
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .aae-card-bg{
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        top: -350px;
+     }
+}
+.aae-filter-button-wrapper{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    @media #{$lg}{
+        padding-bottom: 60px;
+    }
+}
+.aae-filter-buttons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #363636;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 24px 30px;
+    border-radius: 20px;
+    @media #{$lg}{
+        padding: 10px 20px;
+    }
+    @media #{$md}{
+        padding: 15px 10px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    li{
+        &:last-child a{
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            display: flex;
+            gap: 4px;
+        }
+        a{
+            padding: 8px 25px;
+            background-color: transparent;
+            border-radius: 35px;
+            font-size: 18px;
+            font-weight: 500;
+            @media #{$sm}{
+                font-size: 16px;
+            }
+            &:hover{
+                background-color: var(--primary);
+            }
+        }
+    }
+}
+.aae-demo-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    @media #{$md}{
+        grid-template-columns: repeat(3,1fr);
+        gap: 50px;
+    }
+    @media #{$sm}{
+        grid-template-columns: 1fr;
+    }
+}
+.aae-demo-grid-item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    .aae-demo-grid-item-title{
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--white);
+    }
+}
+.aae-demo-grid-item-thumb{
+    img{
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+.aae-filter-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+    z-index: 3;
+    .aae-primary-btn {
+        padding: 16px 27px;
+        @media #{$sm}{
+            padding: 12px 27px;
+        }
+    }
+}

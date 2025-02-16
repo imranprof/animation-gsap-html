@@ -1,0 +1,142 @@
+.aae-pricing-area{
+    .section-title-wrapper{
+        padding-bottom: 80px;
+        @media #{$lg}{
+            padding-bottom: 60px;
+        }
+    }
+}
+.aae-pricing-items {
+    display: flex;
+    gap: 40px;
+    @media #{$lg}{
+        gap: 20px;
+    }
+    @media #{$md}{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    @media #{$sm}{
+        gap: 30px;
+    }
+}
+.aae-pricing-item {
+    background-color: #1E1E1E;
+    padding: 40px;
+    position: relative;
+    border-radius: 20px;
+    @media #{$lg}{
+        padding: 30px 20px;
+    }
+    @media #{$md}{
+        flex-basis: 47%;
+    }
+    @media #{$sm}{
+        flex-basis: 100%;
+    }
+    .title{
+        font-size: 21px;
+        font-weight: 500;
+        margin-bottom: 11px;
+        color: var(--white);
+    }
+    .desc{
+        color: #999999;
+        font-size: 20px;
+        line-height: 1.3;
+        margin-bottom: 50px;
+        @media #{$lg}{
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        @media #{$sm}{
+            margin-bottom: 15px;
+        }
+    }
+    .price-tag{
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: 500;
+        color: var(--white);
+        @media #{$lg}{
+            font-size: 30px;
+        }
+    }
+    .reneue {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 45px;
+        @media #{$lg}{
+            margin-bottom: 28px;
+        }
+        li{
+            font-size: 18px;
+            color: var(--primary);
+            position: relative;
+            line-height: 1;
+            @media #{$lg}{
+                font-size: 14px;
+            }
+            &:not(:last-child)::after{
+                content: "";
+                position: absolute;
+                right: -7px;
+                top: 0;
+                height: 15px;
+                width: 1px;
+                background: var(--primary);
+            }
+        }
+    }
+    .aae-primary-btn-wrapper {
+        display: block;
+        padding: 6px 10px;
+    }
+    .aae-primary-btn {
+        padding: 16px 27px;
+        text-align: center;
+        display: block;
+        font-size: 18px;
+        @media #{$lg}{
+            padding: 10px 10px;
+            font-size: 14px;
+        }
+    }
+    .pricing-features{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 50px;
+        @media #{$lg}{
+            padding-top: 30px;
+        }
+        li{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            @media #{$lg}{
+                font-size: 13px;
+            }
+        }
+    }
+    .price-ribon{
+        background: #BAFFAF;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 6px 18px;
+        border-radius: 0 50px;
+        span{
+            color: #121212;
+            font-size: 14px;
+            font-weight: 600;
+            @media #{$lg}{
+                font-size: 12px;
+            }
+        }
+    }
+    .price-ribon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

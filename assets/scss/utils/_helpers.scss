@@ -1,0 +1,109 @@
+.custom-container {
+    max-width: 1640px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    @media #{$sm} {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.custom-container-2 {
+    max-width: 1540px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    @media #{$sm} {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.section-padding{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    @media #{$lg}{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    @media #{$sm}{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+.section-padding-top{
+    padding-top: 160px;
+    @media #{$lg}{
+        padding-top: 100px;
+    }
+    @media #{$sm}{
+        padding-top: 60px;
+    }
+}
+.section-padding-bottom{
+    padding-bottom: 160px;
+    @media #{$lg}{
+        padding-bottom: 100px;
+    }
+    @media #{$sm}{
+        padding-bottom: 60px;
+    }
+}
+.section-title-wrapper{
+    text-align: center;
+    .section-text{
+        font-size: 380px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: var(--white);
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: linear-gradient(to top, #202020 0%, #2A2A2A 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        z-index: -2;
+        @media #{$xl}{
+            top: 0;
+        }
+        @media #{$lg}{
+            font-size: 180px;
+        }
+        @media #{$sm}{
+            font-size: 90px;
+        }
+    }
+}
+.section-title{
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 1.11;
+    color: var(--white) !important;
+    br{
+        @media #{$md}{
+            display: none;
+        }
+    }
+    @media #{$lg}{
+        font-size: 60px;
+    }
+    @media #{$md}{
+        font-size: 50px;
+    }
+    @media #{$sm}{
+        font-size: 36px;
+    }
+}
+.aae-description{
+    p{
+        span{
+            color: var(--white);
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            text-decoration-thickness: 1px;
+        }
+    }
+}
+.pos-static{
+    position: static !important;
+}

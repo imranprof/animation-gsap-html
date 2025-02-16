@@ -1,0 +1,194 @@
+.aae-card-area{
+ position: relative;
+ padding-bottom: 210px;
+ @media #{$xl}{
+    padding-bottom: 160px;
+ }
+ @media #{$lg}{
+    padding-bottom: 100px;
+ }
+ @media #{$sm}{
+    padding-bottom: 60px;
+ }
+ .aae-card-bg{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: -550px;
+ }
+ .aae-toolkit-card-number {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+}
+.aae-content-title{
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 300;
+    color: var(--white);
+    @media #{$lg}{
+        font-size: 16px;
+    }
+}   
+}
+.aae-toolkit-grid {
+    display: grid;
+    grid-template-columns: 1fr 410px 1fr;
+    align-items: center;
+    gap: 55px;
+    @media #{$mac}{
+        gap: 25px;
+    }
+    @media #{$lg}{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media #{$md}{
+        grid-template-columns: 1fr 1fr;
+    }
+    @media #{$sm}{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+.aae-toolkit-title{
+    font-size: 90px;
+    line-height: 1.11;
+    font-weight: 300;
+    color: var(--white) !important;
+    @media #{$xl}{
+        font-size: 70px;
+    }
+    @media #{$lg}{
+        font-size: 50px;
+    }
+    @media #{$sm}{
+        font-size: 35px;
+    }
+    .highlight{
+    position: relative;
+    display: inline-block;
+        &::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 18px;
+            height: 13px;
+            width: 100%;
+            background: url('../img/bg/underline-bg.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            z-index: -2;
+        }
+    }
+}
+.aae-toolkit-item{
+    position: relative;
+    &:last-child{
+        @media #{$md}{
+            display: none;
+        }
+    }
+}
+.aae-toolkit-item-cards{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #3E2822;
+    border-radius: 20px;
+    &:nth-child(2){
+        transform: rotate(10deg);
+        @media #{$sm}{
+            display: none;
+        }
+    }
+    &:nth-child(3){
+        transform: rotate(0);
+        @media #{$sm}{
+            display: none;
+        }
+    }
+}
+.aae-toolkit-item-card-list{
+    padding: 24px 45px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(7.5px);
+    backdrop-filter: blur(7.5px);
+    position: relative;
+    @media #{$lg}{
+        padding: 15px;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        top: -1px; 
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        z-index: -1; 
+        background: linear-gradient(-165deg, rgba(255, 255, 255, 0.2) 0%, rgba(85, 85, 85, 0.2) 100%);
+        border-radius: 20px; 
+    }
+}
+.aae-toolkit-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.aae-content-item-wrapper {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        top: -1px; 
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        z-index: -1; 
+        background: linear-gradient(-165deg, rgba(255, 255, 255, 0.2) 0%, rgba(85, 85, 85, 0.2) 100%);
+        border-radius: 60px; 
+    }
+}
+.aae-content-item-wrapper::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: 60px;
+    background: linear-gradient(45deg, #FFFFFF, #555555, #FFFFFF);
+    -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    pointer-events: none;
+    filter: blur(20px);
+}
+.aae-content-item-bg {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+}
+.aae-toolkit-card-icon{
+    text-align: center;
+    img{
+        display: inline-block;
+        @media #{$lg}{
+            width: 50%;
+        }
+    }
+}
+
+
+.aae-toolkit-item {
+    perspective: 1000px;
+}

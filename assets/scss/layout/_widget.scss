@@ -1,0 +1,91 @@
+.aae-widgets-area{
+    position: relative;
+    background: #1A1A1A;
+    border-radius: 30px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    z-index: 2;
+    @media #{$sm}{
+        margin: 0;
+    }
+    .aae-card-bg{
+        position: absolute;
+        left: 0;
+        z-index: -2;
+        top: -350px;
+     }
+     .section-description{
+        padding-bottom: 25px;
+        @media #{$md}{
+            padding-bottom: 0;
+        }
+     }
+ }
+.section-title-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aae-widgets-item{
+    background: var(--white);
+    padding: 60px;
+    position: relative;
+    z-index: 2;
+    max-width: 529px;
+    border-radius: 16px;
+    @media #{$sm}{
+        padding: 30px;
+    }
+    // &::before{
+    //     content: "";
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    //     height: 100%;
+    //     width: 100%;
+    //     filter: blur(190px);
+    //     background: #404CD6;
+    //     z-index: -2;
+    //     background-image: url('../img/bg/blue1.png');
+    // }
+    &.aae-widgets-item-one{
+        background-color: #404CD6;
+    }
+    &.aae-widgets-item-two{
+        background-color: #F6B22B;
+    }
+    &.aae-widgets-item-three{
+        background-color: #21A98E;
+    }
+    .aae-widgets-item-icon{
+        margin-bottom: 38px;
+        @media #{$sm}{
+            margin-bottom: 20px;
+        }
+    }
+    .aae-widgets-item-title{
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 1;
+        padding-bottom: 6px;
+    }
+    .aae-widgets-item-wrapper{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .aae-widgets-description{
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--white);
+    }
+    .aae-widgets-btn {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+}

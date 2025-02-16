@@ -1,0 +1,54 @@
+// body area style 
+.dark-mode {
+    background-color: var(--black-2);
+    color: #fff;
+  
+    @include light {
+      background-color: #F6F6FA;
+      color: #555555;
+  
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #3F4061;
+      }
+    } 
+    p {
+      color: #BBBCD2;
+  
+      @include light {
+        color: #555555;
+      }
+    }
+}
+
+.aae-home {
+    color: #F5EDE9;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #F5EDE9;
+    }
+
+    p {
+        color: #999999;
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        br{
+          @media #{$lg}{
+            display: none;
+          }
+        }
+        @media #{$sm}{
+          font-size: 16px;
+        }
+    }
+}

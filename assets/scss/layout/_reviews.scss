@@ -1,0 +1,121 @@
+.aae-reviews-area{
+    background-color: #1A1A1A;
+    border-radius: 30px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    @media #{$sm}{
+        margin: 0;
+    }
+    .section-title-wrapper{
+        text-align: start;
+        padding-bottom: 120px;
+        @media #{$lg}{
+            padding-bottom: 60px;
+        }
+    }
+    .aae-hero-btn{
+        margin-bottom: 0;
+    }
+    .review-desc{
+        @media #{$lg}{
+            font-size: 16px;
+        }
+    }
+}
+.aae-reviews-top {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 35px;
+}
+.reviews-count{
+    font-size: 18px;
+    color: var(--white);
+}
+.aae-reviews-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    @media #{$md}{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media #{$sm}{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.aae-reviews-item {
+    background: rgba(255, 255, 255, 0.02);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #555;
+    position: relative;
+    align-self: flex-start;
+    @media #{$lg}{
+        padding: 20px;
+    }
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .content {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 20px;
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+    .footer {
+        display: flex;
+        gap: 20px;
+        @media #{$lg}{
+            gap: 10px;
+        }
+    }
+    .name{
+        font-size: 20px;
+        font-weight: 300;
+        color: var(--white);
+        padding-bottom: 3px;
+        position: relative;
+        @media #{$lg}{
+            font-size: 16px;
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            right: -10px;
+            bottom: 9px;
+            height: 20px;
+            width: 1px;
+            background: rgba(255, 255, 255, 0.3);
+        }
+    }
+    .post{
+        font-size: 18px;
+        font-weight: 300;
+        color: #999999;
+    }
+    .icon{
+        display: flex;
+        gap: 5px;
+    }
+    .play-video-btn {
+        position: absolute;
+        background: var(--white);
+        height: 70px;
+        width: 70px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #121212;
+        text-transform: capitalize;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
